@@ -2,8 +2,8 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0); // Declaração de um estado
-  
+  const [count, setCount] = useState(0); // Declaração do estado inicial
+
   return (
     <>
       <div className="container">
