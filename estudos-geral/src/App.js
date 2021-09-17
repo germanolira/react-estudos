@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Api from './Api';
 import './App.css';
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
         <button onClick={() => setCount(count + 1)}>Aumentar +1</button> {/* Aumenta o valor do estado */}
         {/* Mas respeitando a imutabilidade do React e aumentando o valor de setCount */}
       </div>
+
+      <Api />
     </>
   );
 }
